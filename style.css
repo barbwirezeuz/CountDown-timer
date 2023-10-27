@@ -83,10 +83,10 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    top: 610px;
     background-color:#27005D ;
     padding: 20px;
-    position: fixed;
-    bottom: 1px;
     width: 100%;
     color: #E4F1FF;
     font-size: larger;
