@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    
+}
+body{
+    position: relative;
+    background-color:#E4F1FF ;
+    color: #9400FF;
+    max-width: 100%;
+    height: auto;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+ h1 {
+    color: #9400FF;
+    padding: 30px;
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+.time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 300px;
+    color: #E4F1FF;
+    margin: 10px;
+    position: absolute;
+    top: 200px;
+}
+
+.time p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #27005D;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.time span {
+    margin-top: 10px;
+    padding: 5px;
+    background-color: #AED2FF;
+    border-radius: 5px;
+    color:#27005D ;
+}
+
+.timer {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px;
+    flex-grow: 1;
+}
+
+#become{
+    text-transform: capitalize;
+    font-size: x-large;
+    font-weight: 700;
+    margin-left: 30px;
+    position: absolute;
+    top: 180px;
+}
+
+#become span{
+    color:#27005D ;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#27005D ;
+    padding: 20px;
+    position: fixed;
+    bottom: 1px;
+    width: 100%;
+    color: #E4F1FF;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.fot {
+    padding: 10px;
+    color: #AED2FF;
+    font-size: small;
+    font-weight: 600;
+}
